@@ -1,0 +1,24 @@
+{
+    "name": "opd-token-system",
+    "version": "1.0.0",
+    "description": "OPD Token Allocation System",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "opd",
+        "token",
+        "allocation",
+        "healthcare"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
