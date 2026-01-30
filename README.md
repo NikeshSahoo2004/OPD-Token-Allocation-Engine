@@ -1,8 +1,10 @@
 # OPD Token Allocation Engine
 
+![image1](image1)
+
 ## Overview
 
-This project implements a backend **OPD (Outpatient Department) token allocation engine** for a hospital. The system manages doctor schedules, allocates patient tokens across fixed time slots, enforces priority rules, and dynamically reallocates slots on cancellations and emergencies.
+This project implements a backend **OPD (Outpatient Department) token allocation engine** for a hospital. The system manages doctor schedules, allocates patient tokens across fixed time slots, enforces priority-based allocation, and dynamically adapts to cancellations and emergencies.
 
 The solution is intentionally kept **simple, deterministic, and explainable**, while still modeling realistic hospital workflows.
 
